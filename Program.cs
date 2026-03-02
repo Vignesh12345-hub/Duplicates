@@ -3,7 +3,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        List<int> numbers = new List<int>() { 1, 2, 1, 6, 4, 2, 6, 3 };
+        List<int> numbers = new List<int>() { 1, 2, 1, 6, 4, 2, 6, 2 };
         for (int i = 0; i < numbers.Count; i++)
         {
             for (int j = i + 1; j < numbers.Count; j++)
